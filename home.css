@@ -1,0 +1,75 @@
+body {
+		
+		/*border-left: 20px solid blue;
+		border-right: 20px solid blue;
+		border-bottom: 9px solid blue;
+		border-top: 9px solid blue;
+	    border-spacing: inherit;*/
+		
+	}
+	.nav{
+	     height: 85px;
+		border-bottom: 6px solid red;
+		display:flex;
+	}	
+	
+	.navbar ul li a:hover{
+		background: rgb(100,20,100);
+	}
+	body{
+	    background-image: url(projectbg.jpg);
+		background-repeat: no-repeat;
+		background-size:auto;
+		font-family: 'Open Sans', sans-serif; 
+	}
+	.container-fluid{
+	
+		background-image: linear-gradient(rgba(0,0,0,0.3) rgba(0,0,0,0.3)),url(bgimg.jpg);
+		margin: 20px auto;
+	}
+	.content{
+		width: 350px;
+	     height: 450px;
+		background-color: #eaeadf;
+		
+		margin: 0 auto;
+		top: 20px;
+		position: relative;
+		border-radius: 5px;
+		flex: auto;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		
+}
+	 
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 50%;
+    height: 50%;
+	
+  }
+	.carousel slide{
+		align-content: center;
+	}
+	.col-lg-10{
+		height: 360px;
+		width: 100px;
+		flex-flow: row-reverse;
+		padding:10px;
+		
+		
+	}
+.carousel-indicators dark{
+ 				height: 360px;
+				width: 200px;
+				padding: 10px;
+}
+.carousel-inner{
+				height: 360px;
+				width: 200px;
+	padding: 10px;
+}
+.carousel-item{
+	height: 360px;
+	width: 200px;
+	padding: 10px;
+}
